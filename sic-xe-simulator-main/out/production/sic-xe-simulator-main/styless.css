@@ -1,0 +1,135 @@
+/* === Estilo Geral === */
+.root {
+    -fx-background-color: #121212;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* === SplitPane (divisores === */
+.split-pane {
+    -fx-background-color: #1e1e1e;
+}
+
+.split-pane-divider {
+    -fx-background-color: #333;
+}
+
+/* === Conteineres (VBox) === */
+.vbox {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10px;
+    -fx-border-width: 1px;
+    -fx-spacing: 10px;
+}
+
+/* === Labels === */
+.label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* === Tabelas === */
+.table-view {
+    -fx-background-color: #212121;
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+}
+
+.table-column {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+/* === indice das tabelas== */
+#memoryIndexColumn, #registerColumn {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* === campos de entrada (onde escolhe o arquovo) === */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-border-color: #555;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+/* ==TextAreas == */
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-border-color: #555;
+    -fx-border-radius: 3px;
+}
+
+/* === ScrollPane (rolar as coiass) === */
+.scroll-pane {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #444;
+}
+
+/* == botões gerais = */
+.button {
+    -fx-background-color: #37474f;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #455a64;
+}
+
+/* == botões Especificos === */
+#carregarArquivoBtn {
+    -fx-background-color: #008B8B;
+}
+
+#carregarArquivoBtn:hover {
+    -fx-background-color: #66CDAA;
+}
+
+#montarBtn {
+    -fx-background-color: #6B8E23;
+}
+
+#montarBtn:hover {
+    -fx-background-color: #9ACD32;
+}
+
+#limparBtn {
+    -fx-background-color: #8B0000;
+}
+
+#limparBtn:hover {
+    -fx-background-color: #f44336;
+}
+/*==========================================*/
+
+/* === Tabela de Reg == */
+#TabelaReg {
+    -fx-background-color: #263238;
+    -fx-border-color: #607d8b;
+    -fx-text-fill: #228B22;
+}
+#valueColumn{-fx-text-fill: #66CDAA;}
+
+/* === Tabela de memoria === */
+#TabelaMem {
+    -fx-background-color: #1b1b1b;
+    -fx-border-color: #455a64;
+}
+#memoryValueColumn{-fx-text-fill: #90EE90;}
+
+/* === areas de Codigo (textarea especificos = */
+#fonteTextArea, #masmaprgTextArea, #saidaTextArea {
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+/*cor especifica do texto */
+#fonteTextArea{ -fx-text-fill: #2F4F4F}
+#masmaprgTextArea{-fx-text-fill: #008080}
+#saidaTextArea{-fx-text-fill: #008000}
